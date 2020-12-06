@@ -4,8 +4,7 @@
 #include <algorithm>
 
 // Full points, runs in 0(M log M) or O(M²) not sure. Depends on the implementation of sort in <algorithm>
-// M >= numbers readed
-
+// M >= numbers read
 // Idea: Store position + word_id as tuple in a big vector
 // Sort vector by position of the word (M log M or M² )
 // Then apply sliding window algorithm to select the optimal interval
